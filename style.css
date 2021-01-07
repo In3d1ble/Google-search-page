@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* *, *:before, *:after {
+    box-sizing: inherit;
+  } */
+
+a, a:visited {
+     color: lightslategrey; /*This makes sure links don't change color after clicking */
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+
+    }
+
+.navigation {
+    font: lighter;
+    position: absolute;
+    top: 1.5rem;
+    right: 3rem;
+    font-size: small;
+}
+
+a + a {
+    margin-left: 10px; /*This makes a margin by 10px from the next hyperlink (a)*/
+}
+a + .appIcon {
+    margin-left: 10px; /*This makes a margin by 10px from the appIcon to neigbouring hyperlinks (a)*/
+    margin-right: 10px;
+    position: relative;
+
+}
+
+.appIcon {
+    top: 5px;
+}
+
+.topbar a {
+    text-indent: 10%;
+}
+
+.midSection {
+    padding: 12.5rem 40rem 40rem 51rem ;
+}
+
+.logo img{
+    position: relative;
+    width: 275px;
+}
+
+.searchBar {
+    
+    margin-top: 27px;
+}
+
+.searchbar input {
+    border: red;
+
+}
+
+.footer .bottomBar_left {
+    font: lighter;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 3rem;
+    font-size: small;
+}
+
+.footer .bottomBar_right {
+    font: lighter;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 3rem;
+    font-size: small;
+}
+
+
+
